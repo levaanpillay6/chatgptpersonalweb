@@ -1,0 +1,245 @@
+/* Reset/defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;  /* black background */
+  color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 5px 10px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.search-container input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #222;
+  color: #fff;
+}
+
+.search-container button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #111;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: #ddd;
+  color: #111;
+}
+
+/* Content Sections */
+.content-section {
+  padding: 60px 5%;
+  text-align: center;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: #333;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Rates Table */
+.rates-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.rates-table th,
+.rates-table td {
+  border: 1px solid #555;
+  padding: 10px;
+  color: #f0f0f0;
+}
+
+.rates-table th {
+  background-color: #222;
+}
+
+/* Contact Form & Socials */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #222;
+  color: #fff;
+}
+
+.contact button {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contact button:hover {
+  background-color: #005b5b;
+}
+
+.socials p a {
+  color: #00cccc;
+  text-decoration: none;
+}
+
+.socials p a:hover {
+  text-decoration: underline;
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #111;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Responsive Breakpoints */
+/* Medium devices (tablets) */
+@media (min-width: 600px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  .nav a {
+    margin: 5px 15px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1024px) {
+  .hero {
+    padding: 140px 20px;
+  }
+  .content-section {
+    padding: 80px 10%;
+  }
+}
