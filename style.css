@@ -51,7 +51,7 @@ header {
 .search-container {
   display: flex;
   align-items: center;
-  margin: 5px 0;
+  margin-center: 5px 0;
 }
 
 .search-container input {
@@ -64,7 +64,7 @@ header {
 }
 
 .search-container button {
-  margin-left: 5px;
+  margin-center: 5px;
   padding: 6px 10px;
   background-color: #444;
   color: #fff;
@@ -253,3 +253,4 @@ footer {
     padding: 80px 10%;
   }
 }
+
