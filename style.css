@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #111;
-  padding: 10px 50px;
+  padding: 15px 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -39,7 +39,7 @@ header {
 .nav a {
   color: #ddd;
   text-decoration: none;
-  margin: 0px 20px;
+  margin: 5px 10px;
   font-weight: 500;
 }
 
@@ -51,7 +51,7 @@ header {
 .search-container {
   display: flex;
   align-items: center;
-  margin-center: 5px 10px;
+  margin: 5px 0;
 }
 
 .search-container input {
@@ -64,7 +64,7 @@ header {
 }
 
 .search-container button {
-  margin-center: 5px;
+  margin-left: 5px;
   padding: 6px 10px;
   background-color: #444;
   color: #fff;
@@ -196,9 +196,9 @@ header {
 
 .socials-table th, 
 .social-table td {
- border: 10px solid black;
- padding: 20px 20px;
- color: #333 ;
+ border: 1px solid black;
+ padding: 10px;
+ color: ;
  text-decoration: none;
 }
 
@@ -253,12 +253,3 @@ footer {
     padding: 80px 10%;
   }
 }
-
-
-
-
-
-
-
-
-
