@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #111;
-  padding: 10px 50000px;
+  padding: 10px 5000px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -252,6 +252,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
