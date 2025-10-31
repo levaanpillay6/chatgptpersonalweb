@@ -55,7 +55,7 @@ header {
 }
 
 .search-container input {
-  padding: 6px 10px;
+  padding: 6px 20px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -64,8 +64,8 @@ header {
 }
 
 .search-container button {
-  margin-left: 5px;
-  padding: 6px 10px;
+  margin-left: 20px;
+  padding: 6px 20px;
   background-color: #444;
   color: #fff;
   border: none;
@@ -253,6 +253,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
