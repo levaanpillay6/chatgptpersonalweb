@@ -198,7 +198,7 @@ header {
 .social-table td {
  border: 1px solid black;
  padding: 10px;
- color: ;
+ color: black;
  text-decoration: none;
 }
 
@@ -253,3 +253,4 @@ footer {
     padding: 80px 10%;
   }
 }
+
