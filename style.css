@@ -154,10 +154,9 @@ header {
 }
 
 /* Contact Form & Socials */
-.contact form {
+.contact form{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .contact input,
@@ -187,9 +186,20 @@ header {
   background-color: #005b5b;
 }
 
-.socials p a {
-  color: #00cccc;
-  text-decoration: none;
+/* social Table */
+.social-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.socials-table th, 
+.social-table td {
+ border: 1px solid black;
+ padding: 10px;
+ color: ;
+ text-decoration: none;
 }
 
 .socials p a:hover {
