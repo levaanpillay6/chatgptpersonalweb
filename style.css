@@ -51,7 +51,7 @@ header {
 .search-container {
   display: flex;
   align-items: center;
-  margin-center: 5px 0;
+  margin-center: 5px 10px;
 }
 
 .search-container input {
@@ -253,4 +253,5 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
