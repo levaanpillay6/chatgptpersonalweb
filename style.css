@@ -39,7 +39,7 @@ header {
 .nav a {
   color: #ddd;
   text-decoration: none;
-  margin: 5px 10px;
+  margin: 5px 5px;
   font-weight: 500;
 }
 
@@ -51,11 +51,11 @@ header {
 .search-container {
   display: flex;
   align-items: center;
-  margin: 5px 20px;
+  margin: 5px 5px;
 }
 
 .search-container input {
-  padding: 6px 20px;
+  padding: 6px 5px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -64,8 +64,8 @@ header {
 }
 
 .search-container button {
-  margin-left: 20px;
-  padding: 6px 20px;
+  margin-left: 5px;
+  padding: 6px 5px
   background-color: #444;
   color: #fff;
   border: none;
@@ -253,6 +253,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
