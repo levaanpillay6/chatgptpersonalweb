@@ -39,7 +39,7 @@ header {
 .nav a {
   color: #ddd;
   text-decoration: none;
-  margin: 5px 10px;
+  margin: 0px 20px;
   font-weight: 500;
 }
 
@@ -253,6 +253,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
