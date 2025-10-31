@@ -64,7 +64,7 @@ header {
 }
 
 .search-container button {
-  margin-center: 10px;
+  margin-left: 10px;
   padding: 6px 5px
   background-color: #444;
   color: #fff;
@@ -253,6 +253,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
