@@ -55,7 +55,7 @@ header {
 }
 
 .search-container input {
-  padding: 6px 5px;
+  padding: 6px 10px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -253,6 +253,7 @@ footer {
     padding: 80px 10%;
   }
 }
+
 
 
 
