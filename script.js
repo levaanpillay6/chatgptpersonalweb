@@ -28,8 +28,16 @@ scrollBtn.onclick = () => {
 };
 
 // CONTACT FORM SUBMIT (placeholder)
-document.getElementById("contactForm").addEventListener("submit", (e) => {
-  e.preventDefault();
+
+  function sendEmail(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      const mailtoLink = `mailto:levaanpillay6@gmail.com?subject=New Query from ${encodeURIComponent(name)}&body=From: ${encodeURIComponent(email)}%0A%0A${encodeURIComponent(message)}`;
+      window.location.href = mailtoLink;
   alert("Thank you! Your message has been sent. We will be in touch.");
   // Later: replace this with actual email submission code/API
 });
+
